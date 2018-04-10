@@ -3,6 +3,5 @@ class Patient < ActiveRecord::Base
   has_many :doctors, through: :appointments
   def appointments_count
     self.appointments.size?
-    
   end
 end
