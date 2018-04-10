@@ -1,5 +1,5 @@
 class DoctorsController < ApplicationController
   def show
-    @doctor = Doctor.find(paramsp[:id])
+    @doctor = Doctor.find(params[:id])
   end
 end
